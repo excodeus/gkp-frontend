@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
-import Services from '../components/Services'
+import News from '../components/News'
 import ScrollButton from '../components/ScrollButton'
 
 const Terbaru = () => {
@@ -10,7 +10,7 @@ const Terbaru = () => {
     <>
         <Navbar />
         <Banner />
-        <Services />
+        <News />
         <Footer />
         <ScrollButton />
     </>

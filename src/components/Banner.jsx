@@ -1,24 +1,29 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import image from '../assets/bgbanner.jpg'
 
 const Banner = () => {
 
   const location = useLocation();
+
   const getPageTitle = (path) => {
     switch (path) {
       case '/karir':
-      case '/karir/detail_karir':
         return 'CAREER';
+      case '/karir/detail_karir':
+        return 'DETAIL';
       case '/produk_kategori':
+        return 'PRODUCT CATEGORY';
       case '/produk_kategori/produk':
-      case '/produk_kategori/produk/detail_produk':
         return 'PRODUCT';
+      case '/produk_kategori/produk/detail_produk':
+        return 'DETAIL';
       case '/galeri':
         return 'GALLERY';
       case '/artikel':
-      case '/artikel/detail_artikel':
         return 'ARTICLE';
+      case '/artikel/detail_artikel':
+          return 'DETAIL'
       case '/terbaru':
         return "WHAT'S NEW?";
       case '/tentang':
@@ -26,6 +31,23 @@ const Banner = () => {
       default:
         return 'GKP';
     }
+  }
+
+  const generateBreadcrumbs = () => {
+    const pathnames = location.pathname.split('/').filter(x => x);
+    return (
+      <div className='text-white text-3xl font-bold'>
+        {pathnames.map((value, index) => {
+          const to = `/${pathnames.slice(0, index + 1).join('/')}`
+          return (
+            <span key={to}>
+              {index > 0 && ' > '}
+              <Link to={to}>{getPageTitle(to)}</Link>
+            </span>
+          )
+        })}
+      </div>
+    )
   }
 
   return (
@@ -39,7 +61,7 @@ const Banner = () => {
         
         <div className="max-w-screen-xl mx-auto flex items-center">
             {/* <!-- Judul Karir --> */}
-            <h2 className="text-white text-4xl font-bold">{getPageTitle(location.pathname)}</h2>
+            {generateBreadcrumbs()}
             {/* <!-- Isi lainnya bisa ditambahkan di sini --> */}
         </div>
     </div>

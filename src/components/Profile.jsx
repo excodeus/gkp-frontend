@@ -13,7 +13,7 @@ const Profile = () => {
               <img
                 src="https://via.placeholder.com/300"
                 alt="Founder Photo"
-                class="w-64 h-64 object-cover rounded-full mb-4"
+                className="w-64 h-64 object-cover rounded-full mb-4"
               />
               <h3 className="text-gkpgreen text-2xl font-semibold">Nama Pendiri</h3>
               <p className="text-gkpgreen text-gray-600">Jabatan Pendiri</p>
@@ -45,103 +45,103 @@ const Profile = () => {
           {/* <!-- Timeline --> */}
           <ol className="relative w-[60%]">
 
-            <li class="mb-10 relative text-center">
-              <h3 class="text-2xl font-semibold text-white w-[60%]">
+            <li className="mb-10 relative text-center">
+              <h3 className="text-2xl font-semibold text-white w-[60%]">
                 Established on May 2000 as Glochem Katri Putera
               </h3>
-              <div class=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
+              <div className=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
             </li>
 
-            <li class="mb-10 relative text-center">
-              <h3 class="text-2xl font-semibold text-white w-[60%]">
+            <li className="mb-10 relative text-center">
+              <h3 className="text-2xl font-semibold text-white w-[60%]">
                 Became the first sole agent of Ajinomoto aspartame and amino acid on 2000
               </h3>
-              <div class=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
+              <div className=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
             </li>
 
-            <li class="mb-10 relative text-center">
-              <h3 class="text-2xl font-semibold text-white w-[60%]">
+            <li className="mb-10 relative text-center">
+              <h3 className="text-2xl font-semibold text-white w-[60%]">
                 June 2008 Glochem Katri Putra changed to Glory Katri Putera
               </h3>
-              <div class=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
-              <div class="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
+              <div className=" w-1 h-14 bg-gray-200 -start-1.5 border border-white mx-[29.75%] mt-6"></div>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full -start-1.5 border border-white mx-[30%]"></div>
             </li>
 
             <li className="relative text-center">
-              <h3 class="text-2xl font-semibold text-white w-[60%]">
+              <h3 className="text-2xl font-semibold text-white w-[60%]">
                 Expand our business to cosmetics and veterinary industries on 2013
               </h3>
             </li>
           </ol>
 
           {/* <!-- Fotos --> */}
-          <div class="flex flex-col gap-6">
-            <div class="relative">
+          <div className="flex flex-col gap-6">
+            <div className="relative">
               <img
                 src="https://via.placeholder.com/480x200"
                 alt="Foto 1"
-                class="rounded-lg"
+                className="rounded-lg"
               />
             </div>
-            <div class="relative">
+            <div className="relative">
               <img
                 src="https://via.placeholder.com/480x200"
                 alt="Foto 2"
-                class="rounded-lg"
+                className="rounded-lg"
               />
             </div>
-            <div class="relative">
+            <div className="relative">
               <img
                 src="https://via.placeholder.com/480x200"
                 alt="Foto 3"
-                class="rounded-lg"
+                className="rounded-lg"
               />
             </div>
           </div>
         </div>
       </section>
 
-      <section class="py-24">
-        <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-24 items-center">
+      <section className="py-24">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-24 items-center">
           {/* <!-- Logo Perusahaan --> */}
-          <div class="md:order-2 max-h-full">
-            <img src={Logo} alt="Logo Perusahaan" class="w-80 border-8 border-green-800 rounded-2xl" />
+          <div className="md:order-2 max-h-full">
+            <img src={Logo} alt="Logo Perusahaan" className="w-80 border-8 border-green-800 rounded-2xl" />
           </div>
 
           {/* <!-- Visi dan Misi --> */}
-          <div class="md:order-1 w-[80%]">
-            <h2 class="text-gkpgreen text-5xl font-bold mb-6">Visi</h2>
-            <p class="text-2xl text-gray-700 mb-16">
+          <div className="md:order-1 w-[80%]">
+            <h2 className="text-gkpgreen text-5xl font-bold mb-6">Visi</h2>
+            <p className="text-2xl text-gray-700 mb-16">
               Become a trusted company in terms of quality and service.
             </p>
-            <h2 class="text-gkpgreen text-5xl font-bold mb-6">Misi</h2>
-            <p class="text-2xl text-gray-700">
+            <h2 className="text-gkpgreen text-5xl font-bold mb-6">Misi</h2>
+            <p className="text-2xl text-gray-700">
               Through customer trust,  GKP sells high quality and safe products.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="py-14 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[500px] relative top-28"
+      <section className="py-14 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[500px] relative top-28"
         style={{
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover'
         }}
       >
-        <div class="max-w-screen-xl mx-auto flex items-center justify-center ">
+        <div className="max-w-screen-xl mx-auto flex items-center justify-center ">
 
           {/* <!-- Alamat Headquarters --> */}
-          <div class="order-1 text-white w-80">
-            <h2 class="text-3xl font-bold mb-8">Headquarters</h2>
-            <p class="text-md mb-4">
+          <div className="order-1 text-white w-80">
+            <h2 className="text-3xl font-bold mb-8">Headquarters</h2>
+            <p className="text-md mb-4">
               Ruko Buaran Persada No.19, Jl. RS Soekamto, Duren Sawit, Jakarta Timur 13450
             </p>
-            <p class="text-md mb-4">
+            <p className="text-md mb-4">
               (021) 8660 1788
             </p>
-            <p class="text-md">
+            <p className="text-md">
               glorysales@cbn.net.id
               agus.purwantoro@glorykatriputera.co.id
               yuanita.gustanti@glorykatriputera.co.id
@@ -152,18 +152,18 @@ const Profile = () => {
           </div>
 
           {/* <!-- Garis pemisah --> */}
-          <div class="order-2 h-[320px] w-0.5 mx-[200px] bg-white "></div>
+          <div className="order-2 h-[320px] w-0.5 mx-[200px] bg-white "></div>
 
           {/* <!-- Branch Site --> */}
-          <div class="order-3 text-white w-80">
-            <h2 class="text-3xl font-bold mb-8">Branch Site</h2>
-            <p class="text-md mb-4">
+          <div className="order-3 text-white w-80">
+            <h2 className="text-3xl font-bold mb-8">Branch Site</h2>
+            <p className="text-md mb-4">
             Komplek Kawasan Industri Candi, Jalan Gatot Subroto Blok XVI No.9D, Semarang, Jawa Tengah
             </p>
-            <p class="text-md mb-4">
+            <p className="text-md mb-4">
               (021) 7619 329
             </p>
-            <p class="text-md mb-24">
+            <p className="text-md mb-24">
               glory_smg@cbn.net.id
             </p>
           </div>
