@@ -107,7 +107,7 @@ const Profile = () => {
       </section>
       
       {/* Visi Misi Section */}
-      <section className="py-24">
+      <section className="py-24 -mb-40">
         <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-24 items-center">
           {/* <!-- Logo Perusahaan --> */}
           <div className="md:order-2 max-h-full">
@@ -129,7 +129,7 @@ const Profile = () => {
       </section>
       
       {/* Contact Us */}
-      <section className="py-20 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[600px] relative top-28"
+      <section className="py-20 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[640px] relative top-48"
         style={{
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover'
