@@ -5,11 +5,13 @@ import image from '../assets/jumbotron.JPG'
 const Profile = () => {
   return (
     <>
+
+      {/* Profile Section */}
       <section className="py-16">
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* <!-- Founder Photo and Info --> */}
-            <div className="flex flex-col items-center md:items-start bg-gkpgreen w-80 p-8 rounded-3xl shadow-md">
+            <div className="flex flex-col items-center md:items-start bg-gkpgreen w-80 p-8 rounded-3xl shadow-md ml-20">
               <img
                 src="https://via.placeholder.com/300"
                 alt="Founder Photo"
@@ -19,8 +21,8 @@ const Profile = () => {
               <p className="text-gkpgreen text-gray-600">Jabatan Pendiri</p>
             </div>
             {/* <!-- Description --> */}
-            <div>
-              <p className="text-gray-700 text-lg font-medium pt-14 leading-10">
+            <div className="mr-18 text-justify">
+              <p className="text-gray-700 text-xl font-medium pt-14 leading-10">
                 PT Glory Katri Putera was established in 2000 by Nama Pendiri, a
                 visionary dedicated to providing high quality additives in
                 Indonesia. We continue to grow and become one of the major
@@ -35,6 +37,7 @@ const Profile = () => {
         </div>
       </section>
 
+      {/* Timeline Section */}
       <section className="py-16 px-4 bg-center bg-no-repeat bg-gray-600 bg-blend-multiply"
         style={{
           backgroundImage: `url(${image})`,
@@ -102,7 +105,8 @@ const Profile = () => {
           </div>
         </div>
       </section>
-
+      
+      {/* Visi Misi Section */}
       <section className="py-24">
         <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-24 items-center">
           {/* <!-- Logo Perusahaan --> */}
@@ -123,8 +127,9 @@ const Profile = () => {
           </div>
         </div>
       </section>
-
-      <section className="py-14 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[500px] relative top-28"
+      
+      {/* Contact Us */}
+      <section className="py-20 bg-center bg-no-repeat bg-[bg-gray-500] bg-gray-600 bg-blend-multiply h-[600px] relative top-28"
         style={{
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover'
