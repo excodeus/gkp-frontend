@@ -26,7 +26,7 @@ const ScrollButton = () => {
 
   return (
     <button
-      className={`z-50 scroll-to-top ${isVisible ? 'visible' : 'hidden'}`}
+      className={`z-50 scroll-to-top bg-white rounded-full ${isVisible ? 'visible' : 'hidden'}`}
       ref={scrollTopBtn}
       title="Back To Top"
       onClick={scrollToTop}
