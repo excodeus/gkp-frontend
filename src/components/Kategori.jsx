@@ -14,22 +14,22 @@ const Kategori = () => {
                         <div className="carousel-container">
                             <div className="carousel">
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 1" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 1" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 2" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 2" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 3" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 3" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 4" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 4" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 5" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 5" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 6" className="rounded-lg w-[200px] h-[200px] object-cover"/>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="Produk 6" className="rounded-lg w-[250px] h-[250px] object-cover"/>
                                 </div>
                             </div>
                         </div>

@@ -6,6 +6,7 @@ import Agents from '../components/Agents.jsx'
 import ArtikelContent from '../components/ArtikelContent.jsx'
 import Footer from '../components/Footer.jsx'
 import ScrollButton from '../components/ScrollButton.jsx'
+import Contact from '../components/Contact.jsx'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Strength />
         <Agents />
         <ArtikelContent />
+        <Contact />
         <Footer />
         <ScrollButton />
     </>

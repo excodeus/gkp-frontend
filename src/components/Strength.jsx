@@ -50,7 +50,7 @@ const Strength = () => {
 
             {/* <!-- Card 4 --> */}
             <div className="max-w-sm w-[400px] h-[220px] rounded-3xl overflow-hidden shadow-lg bg-gkpgreen">
-                <div className="p-16">
+                <div className="px-12 py-16">
                     <div className='grid grid-cols-2'>
                         <FaHandshake size={80} color='bg-gkpgreen' className='ml-4'/>
                         <div className="text-gkpgreen font-bold text-lg mb-2">

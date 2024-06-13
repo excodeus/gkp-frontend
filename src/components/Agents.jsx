@@ -10,7 +10,7 @@ import agent6 from "../assets/agent6.png";
 const Agents = () => {
   return (
     <div
-      className="md:h-[760px] h-auto p-28 bg-no-repeat bg-center bg-[bg-gray-500] bg-gray-600 bg-blend-multiply"
+      className="md:h-[760px] h-auto px-28 py-16 bg-no-repeat bg-center bg-[bg-gray-500] bg-gray-600 bg-blend-multiply"
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
@@ -18,13 +18,13 @@ const Agents = () => {
     >
 
       <div className="relative max-w-screen-xl mx-auto px-4 flex z-30">
-        <div className="w-1/3 pr-8 mt-48">
-          <h2 className="text-white text-4xl font-bold mb-8">
+        <div className="w-1/3 pr-8 mt-60">
+          <h2 className="text-white text-5xl font-bold mb-8">
             Our Sole Agents
           </h2>
         </div>
-        <div className="w-2/3 bg-gkpgreen opacity-80 rounded-3xl py-14">
-          <div className="grid grid-cols-2 gap-16">
+        <div className="w-2/3 bg-gkpgreen opacity-80 rounded-3xl py-16">
+          <div className="grid grid-cols-2 gap-20">
             {/* <!-- Logo 1 --> */}
             <div className="flex justify-center items-center">
               <img src={agent1} alt="Logo 1" className="max-h-20" />
@@ -37,7 +37,7 @@ const Agents = () => {
 
             {/* <!-- Logo 3 --> */}
             <div className="flex justify-center items-center">
-              <img src={agent3} alt="Logo 3" className="max-h-20" />
+              <img src={agent3} alt="Logo 3" className="max-h-28" />
             </div>
 
             {/* <!-- Logo 4 --> */}
@@ -47,12 +47,12 @@ const Agents = () => {
 
             {/* <!-- Logo 5 --> */}
             <div className="flex justify-center items-center">
-              <img src={agent5} alt="Logo 5" className="max-h-28" />
+              <img src={agent5} alt="Logo 5" className="max-h-40" />
             </div>
 
             {/* <!-- Logo 6 --> */}
             <div className="flex justify-center items-center">
-              <img src={agent6} alt="Logo 6" className="max-h-28" />
+              <img src={agent6} alt="Logo 6" className="max-h-40" />
             </div>
           </div>
         </div>
