@@ -5,7 +5,7 @@ const Kategori = () => {
     return (
         <section className="py-16">
             <div className="max-w-screen-xl mx-auto px-4">
-                <div className="grid  gap-8">
+                <div className="grid gap-8">
                     
                     {/* <!-- Kategori 1 --> */}
                     <div className="bg-white rounded-lg shadow-md p-4">
@@ -38,65 +38,6 @@ const Kategori = () => {
                         </div>
                     </div>
                     
-                    {/* <!-- Kategori 3 --> */}
-                    <div className="bg-white rounded-lg shadow-md p-4">
-                        <h3 className="text-xl font-bold mb-4">Kategori</h3>
-                        <div className="carousel-container">
-                            <div className="carousel">
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 1" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 2" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 3" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 4" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 5" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 6" className="rounded-lg"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mt-4 text-center">
-                            <a href="list_produk.html" className="text-blue-500 hover:underline">Lihat Semua Produk</a>
-                        </div>
-                    </div>
-
-                    {/* <!-- Kategori 4 --> */}
-                    <div className="bg-white rounded-lg shadow-md p-4">
-                        <h3 className="text-xl font-bold mb-4">Kategori</h3>
-                        <div className="carousel-container">
-                            <div className="carousel">
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 1" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 2" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 3" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 4" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 5" className="rounded-lg"/>
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="https://via.placeholder.com/200" alt="Produk 6" className="rounded-lg"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mt-4 text-center">
-                            <a href="list_produk.html" className="text-blue-500 hover:underline">Lihat Semua Produk</a>
-                        </div>
-                    </div>
 
                 </div>
 
