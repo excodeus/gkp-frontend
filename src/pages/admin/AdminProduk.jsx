@@ -1,16 +1,16 @@
 import React from 'react'
 import Sidebar from '../../components/admin/Sidebar'
 import Navbar from '../../components/admin/Navbar'
-import Dashboard from '../../components/admin/Dashboard'
+import Produk from '../../components/admin/Produk'
 
-const Admin = () => {
+const AdminProduk = () => {
   return (
     <>
-      <Sidebar />
-      <Navbar />
-      <Dashboard />
+    <Sidebar />
+    <Navbar />
+    <Produk />
     </>
   )
 }
 
-export default Admin
+export default AdminProduk

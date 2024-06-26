@@ -1,16 +1,16 @@
 import React from 'react'
 import Sidebar from '../../components/admin/Sidebar'
 import Navbar from '../../components/admin/Navbar'
-import Dashboard from '../../components/admin/Dashboard'
+import Karir from '../../components/admin/Karir'
 
-const Admin = () => {
+const AdminKarir = () => {
   return (
     <>
-      <Sidebar />
-      <Navbar />
-      <Dashboard />
+        <Sidebar />
+        <Navbar />
+        <Karir />
     </>
   )
 }
 
-export default Admin
+export default AdminKarir

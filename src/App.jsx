@@ -13,6 +13,11 @@ import Terbaru from './pages/Terbaru.jsx'
 import Galeri from './pages/Galeri.jsx'
 import DetailProduk from './pages/DetailProduk.jsx'
 import Admin from './pages/admin/Admin.jsx'
+import AdminKarir from './pages/admin/AdminKarir.jsx'
+import AdminProduk from './pages/admin/AdminProduk.jsx'
+import AdminKategori from './pages/admin/AdminKategori.jsx'
+import AdminGaleri from './pages/admin/AdminGaleri.jsx'
+import AdminArtikel from './pages/admin/AdminArtikel.jsx'
 
 function App() {
 
@@ -33,6 +38,11 @@ function App() {
           <Route path="galeri" element={<Galeri />}/>
           
           <Route path='admin' element={<Admin />}/>
+          <Route path='admin/karir' element={<AdminKarir />}/>
+          <Route path='admin/produk' element={<AdminProduk/>}/>
+          <Route path='admin/kategori' element={<AdminKategori />}/>
+          <Route path='admin/galeri' element={<AdminGaleri />}/>
+          <Route path='admin/artikel' element={<AdminArtikel />}/>
         </Route>
       </Routes>
     </Router>
