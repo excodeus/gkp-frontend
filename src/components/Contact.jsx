@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='mx-60'>
         <h1 className='text-center text-gkpgreen text-3xl font-bold'>CONTACT US</h1>
         <div className="container mx-auto mt-8">
-            <label for="website-admin" className="block mb-2 text-sm font-medium text-gray-900 ">Username</label>
+            <label htmlFor="website-admin" className="block mb-2 text-sm font-medium text-gray-900 ">Username</label>
             <div className="flex mb-6">
                 <span
                     className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-md ">
@@ -19,7 +19,7 @@ const Contact = () => {
                     className="rounded-none rounded-e-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  "
                     placeholder="Enter your name"/>
             </div>
-            <label for="input-group-1" className="block mb-2 text-sm font-medium text-gray-900">Your Email</label>
+            <label htmlFor="input-group-1" className="block mb-2 text-sm font-medium text-gray-900">Your Email</label>
             <div className="relative mb-6">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                     <svg className="w-4 h-4 text-gray-500 " aria-hidden="true"

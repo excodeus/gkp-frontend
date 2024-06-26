@@ -18,6 +18,9 @@ import AdminProduk from './pages/admin/AdminProduk.jsx'
 import AdminKategori from './pages/admin/AdminKategori.jsx'
 import AdminGaleri from './pages/admin/AdminGaleri.jsx'
 import AdminArtikel from './pages/admin/AdminArtikel.jsx'
+import AdminKarirDetail from './pages/admin/AdminKarirDetail.jsx'
+import AdminProdukDetail from './pages/admin/AdminProdukDetail.jsx'
+import AdminArtikelDetail from './pages/admin/AdminArtikelDetail.jsx'
 
 function App() {
 
@@ -39,10 +42,13 @@ function App() {
           
           <Route path='admin' element={<Admin />}/>
           <Route path='admin/karir' element={<AdminKarir />}/>
+          <Route path='admin/karir/detail' element={<AdminKarirDetail />}/>
           <Route path='admin/produk' element={<AdminProduk/>}/>
+          <Route path='admin/produk/detail' element={<AdminProdukDetail />}/>
           <Route path='admin/kategori' element={<AdminKategori />}/>
           <Route path='admin/galeri' element={<AdminGaleri />}/>
           <Route path='admin/artikel' element={<AdminArtikel />}/>
+          <Route path='admin/artikel/detail' element={<AdminArtikelDetail />}/>
         </Route>
       </Routes>
     </Router>
