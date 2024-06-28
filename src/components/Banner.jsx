@@ -51,7 +51,7 @@ const Banner = () => {
   }
 
   return (
-    <div className="text-gkpgreen py-16 px-4 bg-cover bg-center bg-gray-600 bg-blend-multiply"
+    <div className="text-gkpgreen py-24 px-4 bg-cover bg-center bg-gray-600 bg-blend-multiply"
         style={{ 
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover'
