@@ -6,7 +6,7 @@ const News = () => {
     return (
         <div className="py-16">
             <div className="max-w-screen-xl mx-auto px-4">
-            <div className="grid grid-cols-1 gap-8">
+            <div className="grid grid-cols-2 gap-8">
                 
                 {/* <!-- Card 1 --> */}
                 <Link to="/artikel/detail_artikel" className="bg-white rounded-lg overflow-hidden shadow-lg card">
@@ -64,45 +64,6 @@ const News = () => {
             </div>
             </div>
 
-            {/* <!-- Pagination --> */}
-            <div aria-label="Page navigation example" className="mt-8">
-                <ul className="flex items-center -space-x-px h-8 text-sm justify-center">
-                <li>
-                    <a href="#"
-                    className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-green-200 hover:text-green-700 ">
-                    <span className="sr-only">Previous</span>
-                    <svg className="w-2.5 h-2.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 6 10">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                        d="M5 1 1 5l4 4" />
-                    </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#"
-                    className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-green-100 hover:text-green-700 active:bg-green-300">1</a>
-                </li>
-                <li>
-                    <a href="#"
-                    className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-green-100 hover:text-green-700 active:bg-green-300">2</a>
-                </li>
-                <li>
-                    <a href="#"
-                    className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-green-100 hover:text-green-700 active:bg-green-300">3</a>
-                </li>
-                <li>
-                    <a href="#"
-                    className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-green-100 hover:text-green-700">
-                    <span className="sr-only">Next</span>
-                    <svg className="w-2.5 h-2.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 6 10">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                        d="m1 9 4-4-4-4" />
-                    </svg>
-                    </a>
-                </li>
-                </ul>
-            </div>
         </div>
     )
 }

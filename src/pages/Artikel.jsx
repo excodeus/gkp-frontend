@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
-import Services from '../components/News'
+import ArtikelContent from '../components/ArtikelContent'
 import ScrollButton from '../components/ScrollButton'
 
 const Artikel = () => {
@@ -10,7 +10,7 @@ const Artikel = () => {
     <>
         <Navbar />
         <Banner />
-        <Services />
+        <ArtikelContent />
         <Footer />
         <ScrollButton />
     </>

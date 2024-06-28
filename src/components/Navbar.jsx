@@ -44,37 +44,37 @@ const Navbar = () => {
             <ul className="navbar-title hidden md:flex flex-col md:flex-row md:items-center md:space-x-8">
                 <li>
                     <Link to="/karir"
-                    className="text-gkpgreen font-bold hover:text-gray-900 "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900 "> 
                         Career
                     </Link>
                 </li>
                 <li>
                     <Link to="/produk_kategori"
-                    className="text-gkpgreen font-bold hover:text-gray-900 "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900 "> 
                         Product
                     </Link>
                 </li>
                 <li>
                     <Link to="/galeri"
-                    className="text-gkpgreen font-bold hover:text-gray-900 "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900 "> 
                         Gallery
                     </Link>
                 </li>
                 <li>
                     <Link to="/terbaru"
-                    className="text-gkpgreen font-bold hover:text-gray-900 "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900 "> 
                         What's New?
                     </Link>
                 </li>
                 <li>
                     <Link to="/artikel"
-                    className="text-gkpgreen font-bold hover:text-gray-900  "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900  "> 
                         Article
                     </Link>
                 </li>
                 <li>
                     <Link to="/tentang"
-                    className="text-gkpgreen font-bold hover:text-gray-900  "> 
+                    className="text-gkpgreen text-xl font-bold hover:text-gray-900  "> 
                         About Us
                     </Link>
                 </li>
