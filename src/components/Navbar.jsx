@@ -33,11 +33,11 @@ const Navbar = () => {
     // }, []);
 
   return (
-    <div className="navbar sticky p-6 top-0 z-40 bg-gkpgreen"> 
+    <div className="navbar sticky p-4 top-0 z-40 bg-gkpgreen"> 
         <div className="px-14 max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <Link to="/" className="flex items-center">
-                <img src={logo} className="h-8 mr-3" alt="GKP logo" />
-                <span className="navbar-title self-center text-2xl text-gkpgreen font-semibold whitespace-nowrap"> 
+                <img src={logo} className="h-12 mr-3" alt="GKP logo" />
+                <span className="navbar-title self-center text-3xl  text-gkpgreen font-bold whitespace-nowrap"> 
                     GLORY KATRI PUTERA
                 </span>
             </Link>
