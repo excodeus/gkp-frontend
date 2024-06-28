@@ -3,29 +3,45 @@ import { useEffect } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import logo from "../assets/logo.png"
 
+
+
 const Navbar = () => {
-
     // const handleScroll = () => {
-    //     const navbar = document.querySelector('.navbar')
-    //     const opacity = Math.min(1, window.scrollY / 10)
-    //     navbar.style.opacity = opacity
-    // }
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll)
+    //   const navbar = document.querySelector('.navbar');
+    //   const span = document.querySelector('.navbar-title');
+    //   const ul = document.querySelector('.navbar-ul');
 
-    //     return () => window.removeEventListener('scroll', handleScroll)
-    // }, [])
+    //   const opacity = Math.max(0, 1 - window.scrollY / 300);
+      
+    //   navbar.style.backgroundColor = `rgba(177, 228, 167, ${opacity})`;
+      
+    //   if (window.scrollY > 50) {
+    //     span.style.color = 'black';
+    //     ul.style.color = 'black';
+
+    //   } else {
+    //     span.style.color = 'white';
+    //     ul.style.color = 'white';
+
+    //   }
+    // };
+  
+    // useEffect(() => {
+    //   window.addEventListener('scroll', handleScroll);
+  
+    //   return () => window.removeEventListener('scroll', handleScroll);
+    // }, []);
 
   return (
-    <div className="top-0 z-40 bg-gkpgreen"> 
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+    <div className="navbar sticky p-6 top-0 z-40 bg-gkpgreen"> 
+        <div className="px-14 max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <Link to="/" className="flex items-center">
                 <img src={logo} className="h-8 mr-3" alt="GKP logo" />
-                <span className="self-center text-2xl text-gkpgreen font-semibold whitespace-nowrap"> 
+                <span className="navbar-title self-center text-2xl text-gkpgreen font-semibold whitespace-nowrap"> 
                     GLORY KATRI PUTERA
                 </span>
             </Link>
-            <ul className="hidden md:flex flex-col md:flex-row md:items-center md:space-x-8">
+            <ul className="navbar-title hidden md:flex flex-col md:flex-row md:items-center md:space-x-8">
                 <li>
                     <Link to="/karir"
                     className="text-gkpgreen font-bold hover:text-gray-900 "> 
